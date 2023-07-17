@@ -1,0 +1,16 @@
+{
+    "kibandaski":[
+        {"name": "Kibandaski"},
+        {"location": "Nairobi"},
+        {"content": "kibandaski Eat and Eat More"},
+
+        {"name": "James"},
+        "location": "Nairobi, Kenya",
+        "content": "Ordering food from Kibandaski",
+    ]
+    "food" :{
+        "image":"",
+        "food-title":"fish with Ugali and vegies",
+        "available-orders": 15,
+    }
+}

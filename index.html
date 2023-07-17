@@ -2,38 +2,61 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>KIBANDASKI</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
+        
+
+
         <header>
+
             <div class="container">
                 <h1 class="logo">KIBANDASKI</h1>
-                <nav>
-                    <ul>
-                        <li><a href="dashboard.html">Home</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contacts.html">Contact Us</a></li>
-                        <li><a href="inde.html">Logout</a></li>
-                    </ul>
+                <nav class="navigation">
+
+                        <a href="dashboard.html">Home</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="about.html">About</a>
+                        <a href="contacts.html">Contact</a>
+                        <button class="buttonLogin-popup">Login</button>
                 </nav>
             </div>
         </header>
 
         <div class="container">
             <h2 class="section-title">Welcome to the dashboard</h2>
+            
             <section class="section">
+
                 Hello and welcome to Kibandaski, Go <br>
                 Eat and Eat More!!
                 <div id="latest-menu">
                     <h3>What's on the Menu Today</h3>
                     <ol>
                         <li>Fish with Ugali and Vegies</li>
+                        <p>
+                        <img src="https://www.shutterstock.com/image-photo/ugali-served-grilled-fish-spinach-260nw-2284232267.jpg">
+                        </p>
+
                         <li>Chapati with a Beans and Vegies</li>
+                        <p>
+                            <img src="https://www.shutterstock.com/image-photo/chapati-bean-curry-made-beans-260nw-2162323019.jpg">
+                        </p>
+
                         <li>Rice with Beans and Vegies</li>
+                        <p>
+                            <img src="https://www.thismomsmenu.com/wp-content/uploads/2022/11/Instant-Pot-Red-Beans-and-Rice-480x270.jpg">
+                        </p>
+
                         <li>Rice with Ndengu and Vegies</li>
+                        <p>
+                            <img src="https://img-global.cpcdn.com/recipes/dffab16a946cd3a3/680x482cq70/rice-with-ndengu-and-steamed-cabbage-recipe-main-photo.jpg">
+                        </p>
+
                     </ol>
                     <button type="order">Order</button>
                     <ol id="menu-list"></ol>
