@@ -6,12 +6,13 @@
 
 }
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:bisque
-
+    background:url('https://static.vecteezy.com/system/resources/previews/004/275/702/original/fast-food-seamless-background-illustration-simple-restaurant-menu-background-vector.jpg');
+}
+h1{
+    padding: 20px;
 }
 header {
     position: fixed;
@@ -19,7 +20,7 @@ header {
     left: 0;
     width: 100%;
     padding: 5px 20px;
-    background: rgb(240, 194, 240);
+    /* background: rgb(240, 194, 240); */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,11 +62,35 @@ header {
     margin-left: 10px;
 }
 #latest-menu img{
-    border-radius: 34px;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+#latest-menu li{
+    margin: 10px 0;
 }
 #food{
-    font-size: 30px;
+    font-size: 20px;
 }
 #order{
-    font-size: 30px;
+    font-size: 20px;
+}
+#navigation{
+    display: inline-flex;
+}
+#navigation li {
+    margin: 15px;
+}
+#navigation ul{
+    display: inline-flex;
+    margin-left: 1100px;
+}
+#container{
+    display: inline-flex;
+}
+#footer{
+    height: 20vh;
+    text-align: center;
+}
+#footer form, #footer1{
+    font-size: 25px;
 }
