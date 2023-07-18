@@ -1,16 +1,27 @@
 {
-    "kibandaski":[
-        {"name": "Kibandaski"},
-        {"location": "Nairobi"},
-        {"content": "kibandaski Eat and Eat More"},
-
-        {"name": "James"},
-        "location": "Nairobi, Kenya",
-        "content": "Ordering food from Kibandaski",
+    "food_items": [
+      {
+        "id": 1,
+        "name": "Fish with Ugali and Vegies",
+        "quantity": 15
+      },
+      {
+        "id": 2,
+        "name": "Chapati with Beans and Vegies",
+        "quantity": 10
+      },
+      {
+        "id": 3,
+        "name": "Rice with Beans and Vegies",
+        "quantity": 20
+      },
+      {
+        "id": 4,
+        "name": "Rice with Ndengu and Vegies",
+        "quantity": 12
+      }
+      
     ]
-    "food" :{
-        "image":"",
-        "food-title":"fish with Ugali and vegies",
-        "available-orders": 15,
-    }
-}
+    
+  }
+  

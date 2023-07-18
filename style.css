@@ -10,7 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('background.jpg') no-repeat;
+    background-color:bisque
+
 }
 header {
     position: fixed;
@@ -58,4 +59,13 @@ header {
     color: aliceblue;
     font-weight: 300px;
     margin-left: 10px;
+}
+#latest-menu img{
+    border-radius: 34px;
+}
+#food{
+    font-size: 30px;
+}
+#order{
+    font-size: 30px;
 }
